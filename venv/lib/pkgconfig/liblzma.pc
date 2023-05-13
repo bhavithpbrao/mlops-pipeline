@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/boomcam/Desktop/MLOPS/venv
+exec_prefix=/home/boomcam/Desktop/MLOPS/venv
+libdir=/home/boomcam/Desktop/MLOPS/venv/lib
+includedir=/home/boomcam/Desktop/MLOPS/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

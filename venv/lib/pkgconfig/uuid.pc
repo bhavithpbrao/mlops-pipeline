@@ -1,0 +1,11 @@
+prefix=/home/boomcam/Desktop/MLOPS/venv
+exec_prefix=/home/boomcam/Desktop/MLOPS/venv
+libdir=/home/boomcam/Desktop/MLOPS/venv/lib
+includedir=/home/boomcam/Desktop/MLOPS/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
